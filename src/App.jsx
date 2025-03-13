@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./GlobalStyles.css";
 import PaintingOne from "./PaintingOne";
 import Landing from "./landing";
