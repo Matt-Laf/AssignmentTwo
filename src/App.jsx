@@ -15,7 +15,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Landing />}></Route>
+          <Route path="/AssignmentTwo" element={<Landing />}></Route>
           <Route path="/ManAtTheCrossroads" element={<PaintingOne />}></Route>
           <Route path="/ObnoxiousLiberals" element={<PaintingTwo />}></Route>
           <Route path="/TheLastSupper" element={<PaintingThree />}></Route>
