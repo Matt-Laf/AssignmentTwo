@@ -9,6 +9,7 @@ import PaintingThree from "./PaintingThree";
 import PaintingFour from "./PaintingFour";
 import PaintingFive from "./PaintingFive";
 import PaintingSix from "./PaintingSix";
+//THis is a test.
 
 function App() {
   return (
