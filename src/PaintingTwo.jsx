@@ -1,80 +1,29 @@
-import { useState } from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import "./GlobalStyles.css";
 import Accordion from "./AccordionComponent/accordion";
-import accordionDataPage2 from "./Data/accordionDataPage2";
+import { dataPage2, imgsPage2 } from "./Data/dataPage";
 import { NavLink } from "react-router-dom";
+import Carousel from "./AccordionComponent/imgCarousel";
 
 function PaintingTwo() {
-  const [size, setSize] = useState();
-  const [display, setDisplay] = useState();
-
-  const changeSize = () => {
-    console.log(size);
-    if (size === undefined) {
-      setSize("enlarged");
-      setDisplay("On");
-    } else if (size === "enlarged") {
-      setSize("reduced");
-      setDisplay("Off");
-    } else {
-      setSize("enlarged");
-      setDisplay("On");
-    }
-  };
-
   return (
     <>
       <Container>
         <DisplayContainer>
           <PictureContainer>
-            <img
-              onClick={changeSize}
-              className={size}
-              id="painting"
-              src="https://www.thebroad.org/sites/default/files/styles/webp_convert_only/public/art/basquiat-obnoxious_liberals.jpg.webp?itok=bduIlZ3a"
-              alt="wtf"
-            ></img>
+            <Carousel images={imgsPage2} />
           </PictureContainer>
-          <p>
-            <i>Obnoxious Liberals</i> Jean-Michel Basquiat
-          </p>
         </DisplayContainer>
         <TextContainer>
-          <Accordion items={accordionDataPage2} />
+          <Accordion data={dataPage2} />
         </TextContainer>
+        <NavLink to={"/AssignmentTwo/TheLastSupper"}>
+          <Next>NEXT PAGE</Next>
+        </NavLink>
       </Container>
-      <NavLink to={"/TheLastSupper"}>
-        <Next>NEXT PAGE</Next>
-      </NavLink>
     </>
   );
 }
-
-const Next = styled.button``;
-const EnlargeAnim = keyframes`
-  0% {
-    max-width: 50vw;
-    transform: translate(0, 0);
-  }
-
-  100% {
-    transform: translate(24vw, 7vh);
-    max-width: 95vw;
-    background-color: black;
-  }
-`;
-
-const ReduceAnim = keyframes`
-  0% {
-    transform: translate(24vw, 7vh);
-    max-width: 95vw;
-  }
-  100% {
-    max-width: 50vw;
-    transform: translate(0, 0);
-  }
-`;
 
 const Container = styled.div`
   display: flex;
@@ -89,26 +38,23 @@ const DisplayContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 90%;
   max-width: 50vw;
-  border-right: solid;
+  width: 50vw;
+  border-right: solid 2px #003049;
 `;
 
-const PictureContainer = styled.div`
-  img {
-    max-width: 50vw;
-    transform: translate(0, 0);
-  }
-  .enlarged {
-    animation-name: ${EnlargeAnim};
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-  }
-  .reduced {
-    animation-name: ${ReduceAnim};
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-  }
+const PictureContainer = styled.div``;
+
+const Next = styled.button`
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #003049;
+  height: 5vh;
+  width: 10vw;
+  border: solid 2px #669bbc;
+  cursor: point;
 `;
 
 const TextContainer = styled.div`

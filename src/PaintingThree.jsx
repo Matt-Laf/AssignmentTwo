@@ -1,81 +1,29 @@
-import { useState } from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import "./GlobalStyles.css";
 import Accordion from "./AccordionComponent/accordion";
-import accordionDataPage3 from "./Data/accordionDataPage3";
+import { dataPage3, imgsPage3 } from "./Data/dataPage";
 import { NavLink } from "react-router-dom";
-import accordionDataPage4 from "./Data/accordionDataPage4";
+import Carousel from "./AccordionComponent/imgCarousel";
 
 function PaintingThree() {
-  const [size, setSize] = useState();
-  const [display, setDisplay] = useState();
-
-  const changeSize = () => {
-    console.log(size);
-    if (size === undefined) {
-      setSize("enlarged");
-      setDisplay("On");
-    } else if (size === "enlarged") {
-      setSize("reduced");
-      setDisplay("Off");
-    } else {
-      setSize("enlarged");
-      setDisplay("On");
-    }
-  };
-
   return (
     <>
       <Container>
         <DisplayContainer>
           <PictureContainer>
-            <img
-              onClick={changeSize}
-              className={size}
-              id="painting"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/440px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg"
-              alt="wtf"
-            ></img>
+            <Carousel images={imgsPage3} />
           </PictureContainer>
-          <p>
-            <i>The Last Supper</i> Leonardo Davinci
-          </p>
         </DisplayContainer>
         <TextContainer>
-          <Accordion items={accordionDataPage4} />
+          <Accordion data={dataPage3} />
         </TextContainer>
+        <NavLink to={"/AssignmentTwo/RedMaple"}>
+          <Next>NEXT PAGE</Next>
+        </NavLink>
       </Container>
-      <NavLink to={"/RedMaple"}>
-        <Next>NEXT PAGE</Next>
-      </NavLink>
     </>
   );
 }
-
-const Next = styled.button``;
-const EnlargeAnim = keyframes`
-  0% {
-    max-width: 50vw;
-    transform: translate(0, 0);
-  }
-
-  100% {
-    transform: translate(24vw, 7vh);
-    max-width: 95vw;
-    background-color: black;
-  }
-`;
-
-const ReduceAnim = keyframes`
-  0% {
-    transform: translate(24vw, 7vh);
-    max-width: 95vw;
-  }
-  100% {
-    max-width: 50vw;
-    transform: translate(0, 0);
-  }
-`;
 
 const Container = styled.div`
   display: flex;
@@ -90,26 +38,23 @@ const DisplayContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 90%;
   max-width: 50vw;
-  border-right: solid;
+  width: 50vw;
+  border-right: solid 2px #003049;
 `;
 
-const PictureContainer = styled.div`
-  img {
-    max-width: 50vw;
-    transform: translate(0, 0);
-  }
-  .enlarged {
-    animation-name: ${EnlargeAnim};
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-  }
-  .reduced {
-    animation-name: ${ReduceAnim};
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-  }
+const PictureContainer = styled.div``;
+
+const Next = styled.button`
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #003049;
+  height: 5vh;
+  width: 10vw;
+  border: solid 2px #669bbc;
+  cursor: point;
 `;
 
 const TextContainer = styled.div`
