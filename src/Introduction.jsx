@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import PaginationNav from "./AccordionComponent/pagination";
 
-function Index() {
+function Introduction() {
   return (
     <Container>
       <IndexContainer>
@@ -103,4 +103,4 @@ const StyledNavLink = styled(NavLink)`
   }
 `;
 
-export default Index;
+export default Introduction;
