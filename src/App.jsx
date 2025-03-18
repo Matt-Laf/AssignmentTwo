@@ -10,7 +10,7 @@ import PaintingFour from "./PaintingFour";
 import PaintingFive from "./PaintingFive";
 import PaintingSix from "./PaintingSix";
 import GalleryPage from "./Gallery";
-import Index from "./Index";
+import Index from "./Introduction";
 import Conclusion from "./Conclusion";
 import References from "./References";
 

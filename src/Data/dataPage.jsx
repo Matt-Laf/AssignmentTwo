@@ -155,6 +155,12 @@ The museum that to this day still has the painting is in the Convent of Santa Ma
       },
     ],
   },
+  {
+    id: 3,
+    title: "Critical Question",
+    content: `In the Last Supper painting by Leonardo da Vinci, he uses art to describe the reactions the disciples had to Jesus’s news. How does this demonstrate to us how art can be used to tell a story? Think of another art piece that conveyed such strong emotion and a story to you?`,
+    links: [{}],
+  },
 ];
 
 export const imgsPage3 = [
@@ -199,6 +205,12 @@ This painting can be found in the National Gallery of Canada art museum in Ottaw
         url: "https://en.wikipedia.org/wiki/Mexican_muralism",
       },
     ],
+  },
+  {
+    id: 3,
+    title: "Critical Question",
+    content: `How does the Red Maple painting represent Canadian culture? Do you think this is a good representation of Canadian landscapes? If not, what would you change?`,
+    links: [{}],
   },
 ];
 
@@ -245,7 +257,7 @@ The composition emphasizes strong lines, dramatic lighting, and a sense of stoic
   },
   {
     id: 3,
-    title: "Critical Questions",
+    title: "Critical Question",
     content: `How does David communicate values of loyalty, sacrifice, and patriotism through his work? Think of this in the context of revoluntionary France.`,
     links: [{}],
   },
