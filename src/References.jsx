@@ -58,6 +58,32 @@ function References() {
             </a>
           </p>
           <p>
+            Encyclopedia Britannica, inc. (2025a, January 23).
+            <em> American Gothic</em>
+            Encyclopedia Britannica.
+            <a href="https://www.britannica.com/topic/American-Gothic-painting-by-Wood">
+              https://www.britannica.com/topic/American-Gothic-painting-by-Wood
+            </a>
+          </p>
+          <p>
+            Encyclopedia Britannica, inc. (2025a, March 1).
+            <em>The starry night.</em>
+            Encyclopedia Britannica.
+            <a href="https://www.britannica.com/topic/The-Starry-Night ">
+              https://www.britannica.com/topic/The-Starry-Night
+            </a>
+          </p>
+          <p>
+            Museum of Modern Art. (n.d.).
+            <em>
+              Vincent van Gogh. the starry night. Saint Rémy, June 1889 | moma
+            </em>
+            Starry Night.
+            <a href="https://www.moma.org/collection/works/79802">
+              https://www.moma.org/collection/works/79802
+            </a>
+          </p>
+          <p>
             National Gallery of Canada. (2025). <em>Group of Seven.</em> Art
             Country Canada - A. Y. JACKSON The Red Maple GROUP OF SEVEN Giclee
             on Canavas.
@@ -72,7 +98,6 @@ function References() {
               https://www.jean-michel-basquiat.org/obnoxious-liberals/
             </a>
           </p>
-          <p></p>
           <p>
             Royal Academy. (n.d.).{" "}
             <em>
@@ -86,6 +111,12 @@ function References() {
             </a>
           </p>
           <p>
+            <em>The painting.</em> American Gothic House Center. (n.d.).
+            <a href="https://americangothichouse.org/american-gothic">
+              https://americangothichouse.org/american-gothic
+            </a>
+          </p>
+          <p>
             Tourist Italy. (2025).{" "}
             <em>
               How to visit the last supper in Milan in 2025 - tourist Italy.
@@ -96,11 +127,24 @@ function References() {
             </a>
           </p>
           <p>
+            Vincent Van Gough: Starry Night. (n.d.).
+            <a href="https://www.vangoghgallery.com/painting/starry-night.html">
+              https://www.vangoghgallery.com/painting/starry-night.html
+            </a>
+          </p>
+          <p>
             Wikipedia. (2001, January 15). (2025).{" "}
             <em>Wikipedia, the Free Encyclopedia.</em> Wikipedia; Wikimedia
             Foundation.
             <a href="https://en.wikipedia.org/wiki/Main_Page">
               https://en.wikipedia.org/wiki/Main_Page
+            </a>
+          </p>
+          <p>
+            Wood, G. (1970, January 1).
+            <em>American Gothic. </em> The Art Institute of Chicago.
+            <a href="https://www.artic.edu/artworks/6565/american-gothic">
+              https://www.artic.edu/artworks/6565/american-gothic
             </a>
           </p>
         </ReferencesContainer>

@@ -35,6 +35,14 @@ const images = [
     src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Jacques-Louis_David%2C_Le_Serment_des_Horaces.jpg/1280px-Jacques-Louis_David%2C_Le_Serment_des_Horaces.jpg",
     caption: "Oath of the Horatii, Jaqcue-Louis David",
   },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    caption: "Starry Night, Vincent Van Gogh",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg/500px-Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg",
+    caption: "American Gothic, Grant Wood",
+  },
 ];
 
 export default images;

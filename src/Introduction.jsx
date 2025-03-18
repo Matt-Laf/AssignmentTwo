@@ -24,6 +24,9 @@ function Introduction() {
           <StyledNavLink to="/AssignmentTwo/OathOfTheHoratii">
             Oath of the Horatii
           </StyledNavLink>
+          <StyledNavLink to="/AssignmentTwo/StarryNight">
+            Starry Night
+          </StyledNavLink>
           <StyledNavLink to="/AssignmentTwo/Gallery">Gallery</StyledNavLink>
           <StyledNavLink to="/AssignmentTwo/Conclusion">
             Conclusion

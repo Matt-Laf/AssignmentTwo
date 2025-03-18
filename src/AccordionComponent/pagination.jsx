@@ -10,6 +10,8 @@ const pages = [
   "/AssignmentTwo/TheLastSupper",
   "/AssignmentTwo/RedMaple",
   "/AssignmentTwo/OathOfTheHoratii",
+  "/AssignmentTwo/StarryNight",
+  "/AssignmentTwo/AmericanGothic",
   "/AssignmentTwo/Gallery",
   "/AssignmentTwo/Conclusion",
   "/AssignmentTwo/References",

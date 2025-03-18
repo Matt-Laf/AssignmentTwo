@@ -1,22 +1,22 @@
 import styled from "styled-components";
 import "./GlobalStyles.css";
 import Accordion from "./AccordionComponent/accordion";
-import { dataPage6, imgsPage6 } from "./Data/dataPage";
+import { dataPage7, imgsPage7 } from "./Data/dataPage";
 import Carousel from "./AccordionComponent/imgCarousel";
 import PaginationNav from "./AccordionComponent/pagination";
 
-function PaintingSix() {
+function PaintingSeven() {
   return (
     <>
       <Container>
-        <Title>Starry Night</Title>
+        <Title>American Gothic</Title>
         <DisplayContainer>
           <PictureContainer>
-            <Carousel images={imgsPage6} />
+            <Carousel images={imgsPage7} />
           </PictureContainer>
         </DisplayContainer>
         <TextContainer>
-          <Accordion data={dataPage6} />
+          <Accordion data={dataPage7} />
         </TextContainer>
         <PaginationNav></PaginationNav>
       </Container>
@@ -66,4 +66,4 @@ const TextContainer = styled.div`
   }
 `;
 
-export default PaintingSix;
+export default PaintingSeven;

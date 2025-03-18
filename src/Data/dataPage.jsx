@@ -350,4 +350,153 @@ export const imgsPage5 = [
   },
 ];
 
+export const dataPage6 = [
+  {
+    id: 1,
+    title: "Artist",
+    content: `Vincent van Gogh’s Starry Night is one of the most famous and instantly recognizable paintings in the world. Created in 1889, this iconic piece of art captures the essence of van Gogh’s unique style and troubled emotional state. The painting is currently housed at The Museum of Modern Art (MoMA) in New York City, where it continues to awe visitors with its swirling skies and vibrant colors. The work is a testament to van Gogh's genius and his ability to blend emotional depth with artistic technique.`,
+    links: [
+      {
+        phrase: "Neoclassical",
+        url: "https://en.wikipedia.org/wiki/Neoclassicism",
+      },
+      {
+        phrase: "Jacques-Louis David",
+        url: "https://en.wikipedia.org/wiki/Jacques-Louis_David",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Description",
+    content: `
+Starry Night was painted during a period of intense personal difficulty for van Gogh. In 1888, van Gogh suffered a mental breakdown, culminating in the infamous incident where he cut off part of his own ear. After this event, he voluntarily admitted himself to the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence, France, where he painted Starry Night. The view from the asylum window, which inspired the painting, was the subject of many of his works during this time. Van Gogh often painted scenes he observed from his window, interpreting them in his distinctive style.
+Although Starry Night is not a direct representation of the view from his window, it is heavily influenced by the landscape. Van Gogh painted a fantastical, dreamlike version of the scene, filled with swirling stars and a luminous crescent moon. The cypress tree in the foreground, which has often been noted for its symbolic meaning, was also visible from his window. The sweeping sky, full of energy and motion, is painted with thick, expressive brushstrokes, which were a hallmark of van Gogh’s later work. His technique of impasto, where paint is applied thickly to create texture, is evident in Starry Night, giving the work a sense of depth and vitality.
+
+Van Gogh’s style in Starry Night marks a departure from traditional landscape painting. The swirling forms of the sky and the exaggerated colors reflect his emotional and psychological state. The contrasting colors of deep blues and bright yellows, along with the tumultuous swirling patterns in the sky, evoke a sense of both chaos and beauty. The brushstrokes are thick and energetic, creating a sense of movement that mirrors the turbulence van Gogh was experiencing in his personal life. His use of bold, non-naturalistic color was revolutionary at the time and contributed to the development of Expressionism in art.
+The painting’s composition is also notable for its juxtaposition of the calm, serene village below and the dynamic, almost violent sky above. This contrast could reflect van Gogh's internal conflict, torn between peaceful domestic life and the overwhelming force of his emotions. The cypress tree, often seen as a symbol of death, reaches up toward the sky, perhaps symbolizing van Gogh’s longing for connection with something greater, or even an attempt to escape his earthly struggles.
+
+When van Gogh painted Starry Night, he was still relatively unknown as an artist. He spent most of his life in poverty, and his works were not widely appreciated during his time. In fact, Starry Night was never sold during his lifetime. Van Gogh’s reputation began to grow posthumously, and today he is considered one of the most important figures in Western art history. Starry Night has become a symbol of his brilliance and tragic life. It embodies both the beauty and madness that defined his artistic journey.
+The painting’s importance extends beyond the art world. It has been reproduced on countless products, from posters to clothing, making it one of the most recognizable images in popular culture. Starry Night also continues to inspire new generations of artists and art lovers, and its presence in MoMA ensures that it remains a central part of the conversation about van Gogh’s legacy.
+In conclusion, Starry Night is not just a beautiful work of art—it reflects van Gogh’s turbulent emotional landscape and his desire to convey his inner turmoil through the language of color and form. Despite its creation during a time of personal hardship, Starry Night stands as a testament to van Gogh’s enduring creativity and his ability to transform suffering into something sublime.
+
+
+`,
+    links: [
+      {
+        phrase: "French Revolution",
+        url: "https://en.wikipedia.org/wiki/French_Revolution",
+      },
+      {
+        phrase: "Neoclassical",
+        url: "https://en.wikipedia.org/wiki/Neoclassicism",
+      },
+      {
+        phrase: "Enlightenment",
+        url: "https://en.wikipedia.org/wiki/Age_of_Enlightenment",
+      },
+      {
+        phrase: "Napolean",
+        url: "https://en.wikipedia.org/wiki/Napoleon",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Critical Question",
+    content: `How does van Gogh use color, brushstroke, and composition in Starry Night to convey a sense of emotion and psychological turmoil, and what might this tell us about the artist's personal experience?`,
+    links: [{}],
+  },
+];
+
+export const imgsPage6 = [
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    caption: "Starry Night, Vincent van Gogh",
+  },
+  {
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnZ9yiWZEHvtw3z7BcKIsbWo1Jur-ts9KIvg&s",
+    caption: "Self-portrait with grey felt hat, Vincent Van Gogh",
+  },
+  {
+    src: "https://press.moma.org/wp-content/uploads/2023/06/01_MoMA_Photography-by-Brett-Beyer-706x480.jpg",
+    caption: "Museum of Modern Art",
+  },
+];
+export const dataPage7 = [
+  {
+    id: 1,
+    title: "Artist",
+    content: `Grant Wood’s American Gothic, painted in 1930, is one of the most iconic and instantly recognizable works of American art. The painting captures a stern-looking farmer and his daughter standing in front of a simple, Gothic-style farmhouse, which has become a symbol of rural America. The painting is currently housed at the Art Institute of Chicago, where it continues to attract attention for its striking portrayal of the rural Midwestern lifestyle during the Great Depression. American Gothic is a masterpiece of American Regionalism and a work that continues to be examined for its complex social and political themes.`,
+    links: [
+      {
+        phrase: "Neoclassical",
+        url: "https://en.wikipedia.org/wiki/Neoclassicism",
+      },
+      {
+        phrase: "Jacques-Louis David",
+        url: "https://en.wikipedia.org/wiki/Jacques-Louis_David",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Description",
+    content: `
+American Gothic was created at a time when the United States was struggling with the effects of the Great Depression, which began in 1929. Grant Wood, an artist based in Iowa, sought to capture the resilience of the rural working class. The painting was inspired by a trip Wood made to Eldon, Iowa, where he saw a small farmhouse built in the Gothic Revival style. This house, with its steep roof and pointed windows, served as the backdrop for the piece. Wood felt that the farmhouse's architecture symbolized the strength and enduring qualities of rural America.
+Wood, who was heavily influenced by European and American art movements, notably the Regionalist movement, was drawn to depicting ordinary people in everyday situations. He sought to create an image that embodied traditional American values and the hardworking nature of rural life. The subjects of the painting are his dentist, Dr. Byron McKeeby, and his sister, Nan Wood Graham, who posed for the work. Wood's decision to use a dentist and his sister as models, rather than actual farmers, contributed to the painting’s somewhat enigmatic quality. The two figures in the painting stand rigidly and are dressed in a manner that reflects the conservative, practical nature of the rural Midwestern lifestyle.
+
+In American Gothic, Wood employed a highly detailed and realistic style. His technique draws from both Northern Renaissance art and the precision of 20th-century American realism. The composition of the painting is symmetrical and tightly structured, with the figures placed in the foreground and the house forming a strong architectural background. The severe expressions on the farmer and his daughter add to the painting’s sense of gravity and formality, contributing to its sense of stoic resilience.
+Wood’s use of color is subdued but powerful. The earth tones in the clothing and the building contrast with the brighter, crisp white of the house, emphasizing the isolation of the figures. The stern faces of the farmer and his daughter reflect the hardships of rural life during the Depression, yet they also convey a sense of quiet determination. The rigid poses of the figures suggest that they are bound to the land, working tirelessly to maintain their way of life. The Gothic windows of the farmhouse behind them also create a sense of verticality, reinforcing the themes of structure and endurance.
+
+When Wood completed American Gothic in 1930, it quickly became a symbol of the American heartland and the values of self-reliance and fortitude that were associated with rural life. The painting was first exhibited at the Art Institute of Chicago, where it won a prestigious award and was purchased by the museum. The work’s success marked the height of Wood’s career, and American Gothic became a defining example of American Regionalism, a movement that sought to depict the rural and small-town life of America in a realistic and accessible manner.
+Despite its initial success, American Gothic has been subject to a variety of interpretations over the years. Some critics have viewed the painting as a satirical comment on the rigidity and conservatism of rural life, while others have seen it as a celebration of traditional values and hard work. The stoic expressions of the figures, along with the barren surroundings, have led some to interpret the painting as a commentary on the struggles of rural Americans during the Great Depression, while others argue that it emphasizes the dignity and strength of the working class.
+In popular culture, American Gothic has been parodied and referenced countless times, often in a humorous or ironic context. Its portrayal of the farmer and his daughter has been used in everything from political cartoons to advertisements, making it one of the most enduring images in American art. The painting’s legacy is as much about the cultural impact it has had as it is about its artistic achievements.
+In conclusion, American Gothic remains one of the most significant works in American art, encapsulating the essence of rural America during a time of economic hardship. Grant Wood’s ability to depict the dignity, strength, and sometimes harsh realities of rural life has ensured that the painting continues to resonate with viewers today. Whether viewed as a celebration of American values or a critique of small-town conservatism, American Gothic is a powerful and enduring image of the American spirit.
+
+
+
+`,
+    links: [
+      {
+        phrase: "French Revolution",
+        url: "https://en.wikipedia.org/wiki/French_Revolution",
+      },
+      {
+        phrase: "Neoclassical",
+        url: "https://en.wikipedia.org/wiki/Neoclassicism",
+      },
+      {
+        phrase: "Enlightenment",
+        url: "https://en.wikipedia.org/wiki/Age_of_Enlightenment",
+      },
+      {
+        phrase: "Napolean",
+        url: "https://en.wikipedia.org/wiki/Napoleon",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Critical Question",
+    content: `How does Grant Wood's use of realism and the depiction of the rural couple in American Gothic challenge or reinforce stereotypes about American values and identity during the Great Depression?`,
+    links: [{}],
+  },
+];
+
+export const imgsPage7 = [
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg/500px-Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg",
+    caption: "American Gothic, Grant Wood",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Grant_Wood.jpg/220px-Grant_Wood.jpg",
+    caption: "Self-portrait, Grant Wood",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Art_Institute_of_Chicago_%2851575570710%29.jpg/1280px-Art_Institute_of_Chicago_%2851575570710%29.jpg",
+    caption: "Art Institute of Chicago",
+  },
+];
+
 export default { dataPage1, dataPage2, dataPage3, dataPage4 };

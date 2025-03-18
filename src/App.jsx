@@ -9,6 +9,7 @@ import PaintingThree from "./PaintingThree";
 import PaintingFour from "./PaintingFour";
 import PaintingFive from "./PaintingFive";
 import PaintingSix from "./PaintingSix";
+import PaintingSeven from "./PaintingSeven";
 import GalleryPage from "./Gallery";
 import Introduction from "./Introduction";
 import Conclusion from "./Conclusion";
@@ -45,8 +46,12 @@ function App() {
             element={<PaintingFive />}
           ></Route>
           <Route
-            path="/AssignmentTwo/ManAtTheCrossroads"
+            path="/AssignmentTwo/StarryNight"
             element={<PaintingSix />}
+          ></Route>
+          <Route
+            path="/AssignmentTwo/AmericanGothic"
+            element={<PaintingSeven />}
           ></Route>
           <Route
             path="/AssignmentTwo/Gallery"
