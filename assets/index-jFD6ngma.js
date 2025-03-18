@@ -315,7 +315,7 @@ The composition emphasizes strong lines, dramatic lighting, and a sense of stoic
   span {
     font-weight: bold;
   }
-`,Y1="https://matt-laf.github.io/AssignmentTwo/Black%20and%20White%20Minimalist%20Memoir%20Book%20Cover.jpg";function k1(){return y.jsx(G1,{children:y.jsx(Q1,{href:"/AssignmentTwo/Index",children:y.jsx(X1,{src:Y1})})})}const G1=Y.div`
+`,Y1="https://matt-laf.github.io/AssignmentTwo/Black%20and%20White%20Minimalist%20Memoir%20Book%20Cover.jpg";function k1(){return y.jsx(G1,{children:y.jsx(Q1,{href:"/AssignmentTwo/Introduction",children:y.jsx(X1,{src:Y1})})})}const G1=Y.div`
   display: flex;
   justify-content: center;
   align-items: center;
