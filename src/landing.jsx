@@ -2,12 +2,12 @@ import "./GlobalStyles.css";
 import styled from "styled-components";
 
 import img from "/Black and White Minimalist Memoir Book Cover.jpg";
-import PaginationNav from "./AccordionComponent/pagination";
+import { NavLink } from "react-router-dom";
 
 function Landing() {
   return (
     <Container>
-      <Connector href="/AssignmentTwo/Introduction">
+      <Connector to="/AssignmentTwo/Introduction">
         <Book src={img}></Book>
       </Connector>
     </Container>
@@ -31,7 +31,7 @@ const Book = styled.img`
   border: solid 2px rgba(0, 0, 0, 0.1);
 `;
 
-const Connector = styled.a`
+const Connector = styled(NavLink)`
   display: flex;
   justify-content: center;
   align-items: center;
