@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 const GalleryContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(10%, 17%));
+  gap: 1%;
   padding: 20px;
 `;
 
@@ -55,6 +55,7 @@ const Button = styled.button`
   cursor: pointer;
   font-size: 18px;
   border-radius: 5px;
+  z-index: 1000;
   &:hover {
     background: rgba(255, 255, 255, 1);
   }
@@ -64,6 +65,14 @@ const CloseButton = styled(Button)`
   position: absolute;
   top: 20px;
   right: 20px;
+`;
+
+const LightboxContent = styled.div`
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 `;
 
 const Gallery = ({ images }) => {
@@ -101,15 +110,16 @@ const Gallery = ({ images }) => {
       {selectedIndex !== null && (
         <Lightbox>
           <CloseButton onClick={closeImage}>✖</CloseButton>
-          <LightboxImage
-            src={images[selectedIndex].src}
-            alt={images[selectedIndex].caption}
-          />
+          <LightboxContent>
+            <Button onClick={prevImage}>⬅ </Button>
+            <LightboxImage
+              src={images[selectedIndex].src}
+              alt={images[selectedIndex].caption}
+            />
+
+            <Button onClick={nextImage}> ➡</Button>
+          </LightboxContent>
           <Caption>{images[selectedIndex].caption}</Caption>
-          <div>
-            <Button onClick={prevImage}>⬅ Prev</Button>
-            <Button onClick={nextImage}>Next ➡</Button>
-          </div>
         </Lightbox>
       )}
     </>

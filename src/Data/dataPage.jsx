@@ -50,9 +50,15 @@ export const dataPage1 = [
     links: [
       {
         phrase: "fresco",
-        url: "https://en.wikipedia.org/wiki/Mexican_muralism",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Murales_Rivera_-_Markt_in_Tlatelolco_3.jpg/800px-Murales_Rivera_-_Markt_in_Tlatelolco_3.jpg",
       },
     ],
+  },
+  {
+    id: 3,
+    title: "Critical Question",
+    content: `How does Riviera’s use of technology, class, and political figures challenge or reinforce your own conception of who holds power in shaping history? How does this reflection influence your own perspective on modern power structures?`,
+    links: [{}],
   },
 ];
 
@@ -83,7 +89,7 @@ export const dataPage2 = [
     links: [
       {
         phrase: "neo-expressionist",
-        url: "https://en.wikipedia.org/wiki/Mexican_muralism",
+        url: "https://en.wikipedia.org/wiki/Neo-expressionism",
       },
     ],
   },
@@ -102,6 +108,12 @@ This painting is a reflection of Basquiat's own frustration with capitalist co-o
         url: "https://en.wikipedia.org/wiki/Mexican_muralism",
       },
     ],
+  },
+  {
+    id: 3,
+    title: "Critical Question",
+    content: `How does Basquiat's chaotic composition help or detract from his critiques of capitalism? How does this work to shape your own understanding of art as a commodity? `,
+    links: [{}],
   },
 ];
 
@@ -230,6 +242,12 @@ The composition emphasizes strong lines, dramatic lighting, and a sense of stoic
         url: "https://en.wikipedia.org/wiki/Mexican_muralism",
       },
     ],
+  },
+  {
+    id: 3,
+    title: "Critical Questions",
+    content: `How does David communicate values of loyalty, sacrifice, and patriotism through his work? Think of this in the context of revoluntionary France.`,
+    links: [{}],
   },
 ];
 

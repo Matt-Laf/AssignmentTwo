@@ -10,22 +10,27 @@ const HoverContainer = styled.span`
 `;
 
 const PreviewBox = styled.div`
-  position: absolute;
+  position: fixed;
   top: 25px;
   left: 0;
-  width: 300px;
-  height: 200px;
+  width: 50vw;
+  height: 50vh;
+  overflow: hidden;
   background: white;
   border: 1px solid #ccc;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 100;
+  z-index: 1000000;
   display: ${(props) => (props.visible ? "block" : "none")};
+  top: 50%; /* Vertically center it */
+  left: 50%; /* Horizontally center it */
+  transform: translate(-50%, -50%); /* Adjust to center the div properly */
 `;
 
 const Iframe = styled.iframe`
   width: 100%;
   height: 100%;
   border: none;
+  overflow: hidden;
 `;
 
 const StyledLink = styled.a`

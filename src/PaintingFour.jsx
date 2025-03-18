@@ -5,11 +5,13 @@ import { dataPage4, imgsPage4 } from "./Data/dataPage";
 import { NavLink } from "react-router-dom";
 import Carousel from "./AccordionComponent/imgCarousel";
 import images from "./Data/ImgGallery";
+import PaginationNav from "./AccordionComponent/pagination";
 
 function PaintingFour() {
   return (
     <>
       <Container>
+        <Title>The Red Maple</Title>
         <DisplayContainer>
           <PictureContainer>
             <Carousel images={imgsPage4} />
@@ -18,9 +20,7 @@ function PaintingFour() {
         <TextContainer>
           <Accordion data={dataPage4} />
         </TextContainer>
-        <NavLink to={"/AssignmentTwo/OathOfTheHoratii"}>
-          <Next>NEXT PAGE</Next>
-        </NavLink>
+        <PaginationNav></PaginationNav>
       </Container>
     </>
   );
@@ -34,12 +34,18 @@ const Container = styled.div`
   width: 100vw;
 `;
 
+const Title = styled.h1`
+  color: #003049;
+  position: absolute;
+  top: 2.5%;
+`;
+
 const DisplayContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: 50%;
   max-width: 50vw;
   width: 50vw;
   border-right: solid 2px #003049;

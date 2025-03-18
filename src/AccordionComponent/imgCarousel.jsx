@@ -20,6 +20,7 @@ const Image = styled.img`
   border-radius: 15px 50px;
   width: 100%;
   border-radius: 8px;
+  max-height: 80%;
   transition: opacity 0.5s ease-in-out;
   cursor: pointer;
   &:hover {
@@ -28,8 +29,9 @@ const Image = styled.img`
 `;
 
 const Caption = styled.p`
-  margin-top: 10px;
-  font-size: 18px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-style: italic;
   text-align: center;
 `;
 

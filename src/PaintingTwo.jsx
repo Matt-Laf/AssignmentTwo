@@ -4,11 +4,13 @@ import Accordion from "./AccordionComponent/accordion";
 import { dataPage2, imgsPage2 } from "./Data/dataPage";
 import { NavLink } from "react-router-dom";
 import Carousel from "./AccordionComponent/imgCarousel";
+import PaginationNav from "./AccordionComponent/pagination";
 
 function PaintingTwo() {
   return (
     <>
       <Container>
+        <Title>Obnoxious Liberals</Title>
         <DisplayContainer>
           <PictureContainer>
             <Carousel images={imgsPage2} />
@@ -17,9 +19,7 @@ function PaintingTwo() {
         <TextContainer>
           <Accordion data={dataPage2} />
         </TextContainer>
-        <NavLink to={"/AssignmentTwo/TheLastSupper"}>
-          <Next>NEXT PAGE</Next>
-        </NavLink>
+        <PaginationNav></PaginationNav>
       </Container>
     </>
   );
@@ -33,12 +33,17 @@ const Container = styled.div`
   width: 100vw;
 `;
 
+const Title = styled.h1`
+  color: #003049;
+  position: absolute;
+  top: 2.5%;
+`;
 const DisplayContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: 50%;
   max-width: 50vw;
   width: 50vw;
   border-right: solid 2px #003049;

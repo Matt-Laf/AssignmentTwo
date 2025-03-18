@@ -11,7 +11,8 @@ import PaintingFive from "./PaintingFive";
 import PaintingSix from "./PaintingSix";
 import GalleryPage from "./Gallery";
 import Index from "./Index";
-//THis is a test.
+import Conclusion from "./Conclusion";
+import References from "./References";
 
 function App() {
   return (
@@ -47,6 +48,14 @@ function App() {
           <Route
             path="/AssignmentTwo/Gallery"
             element={<GalleryPage />}
+          ></Route>
+          <Route
+            path="/AssignmentTwo/Conclusion"
+            element={<Conclusion />}
+          ></Route>
+          <Route
+            path="/AssignmentTwo/References"
+            element={<References />}
           ></Route>
           <Route path="/AssignmentTwo/Test" element={<Test />}></Route>
         </Routes>
