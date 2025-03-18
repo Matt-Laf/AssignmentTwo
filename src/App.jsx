@@ -10,7 +10,7 @@ import PaintingFour from "./PaintingFour";
 import PaintingFive from "./PaintingFive";
 import PaintingSix from "./PaintingSix";
 import GalleryPage from "./Gallery";
-import Index from "./Introduction";
+import Introduction from "./Introduction";
 import Conclusion from "./Conclusion";
 import References from "./References";
 
@@ -20,7 +20,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/AssignmentTwo" element={<Landing />}></Route>
-          <Route path="/AssignmentTwo/Index" element={<Index />}></Route>
+          <Route
+            path="/AssignmentTwo/Introduction"
+            element={<Introduction />}
+          ></Route>
           <Route
             path="/AssignmentTwo/ManAtTheCrossroads"
             element={<PaintingOne />}

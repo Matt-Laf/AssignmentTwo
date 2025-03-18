@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const pages = [
   "/AssignmentTwo",
-  "/AssignmentTwo/Index",
+  "/AssignmentTwo/Introduction",
   "/AssignmentTwo/ManAtTheCrossroads",
   "/AssignmentTwo/ObnoxiousLiberals",
   "/AssignmentTwo/TheLastSupper",
