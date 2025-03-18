@@ -7,7 +7,7 @@ import PaginationNav from "./AccordionComponent/pagination";
 function Landing() {
   return (
     <Container>
-      <Connector href="/AssignmentTwo/Index">
+      <Connector href="/AssignmentTwo/Introduction">
         <Book src={img}></Book>
       </Connector>
     </Container>
