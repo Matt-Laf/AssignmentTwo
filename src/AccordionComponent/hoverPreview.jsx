@@ -5,7 +5,7 @@ const HoverContainer = styled.span`
   display: inline-block;
   position: relative;
   cursor: pointer;
-  color: blue;
+  color: #003049;
   text-decoration: underline;
 `;
 
@@ -22,7 +22,7 @@ const PreviewBox = styled.div`
   z-index: 1000000;
   display: ${(props) => (props.visible ? "block" : "none")};
   top: 50%; /* Vertically center it */
-  left: 50%; /* Horizontally center it */
+  left: 30%; /* Horizontally center it */
   transform: translate(-50%, -50%); /* Adjust to center the div properly */
 `;
 

@@ -95,16 +95,14 @@ function References() {
               https://www.touristitaly.com/how-to-visit-the-last-supper-in-milan/
             </a>
           </p>
-
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
+          <p>
+            Wikipedia. (2001, January 15). (2025).{" "}
+            <em>Wikipedia, the Free Encyclopedia.</em> Wikipedia; Wikimedia
+            Foundation.
+            <a href="https://en.wikipedia.org/wiki/Main_Page">
+              https://en.wikipedia.org/wiki/Main_Page
+            </a>
+          </p>
         </ReferencesContainer>
         <PaginationNav></PaginationNav>
       </Container>

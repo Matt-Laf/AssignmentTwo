@@ -48,6 +48,7 @@ const AccordionContent = styled.div`
   border-right: 2px solid #669bbc;
   border-bottom: 2px solid #669bbc;
   overflow-y: auto;
+  line-height: 150%;
   opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
   transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out,
     padding 0.3s ease-in-out;

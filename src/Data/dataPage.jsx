@@ -2,7 +2,7 @@ export const dataPage1 = [
   {
     id: 1,
     title: "Artist",
-    content: `Diego Riviera was a Mexican Muralist (heavily inspired
+    content: `Diego Rivera was a Mexican Muralist (heavily inspired
             by socialist realism) responsible for the painting “Man, Controller
             of the Universe (1934)”; a mural reflecting the historically
             defining progress mankind was making politically and technologically
@@ -11,15 +11,27 @@ export const dataPage1 = [
             The piece was originally commissioned by Nelson Rockerfeller for the
             Rockerfeller center in New York City. However, after it was
             complete, the inclusion of Vladimir Lenin was seen as controversial;
-            a consequence of the first red scare in America. Riviera’s refusal
+            a consequence of the first red scare in America. Rivera’s refusal
             to remove the depiction of Lenin was seen as “un-American” by
-            Rockerfeller, who had the piece destroyed. Riviera repainted the
+            Rockerfeller, who had the piece destroyed. Rivera repainted the
             piece, which is now displayed in the Palace of Fine Arts in Mexico
             City.`,
     links: [
       {
+        phrase: "Vladimir Lenin",
+        url: "https://en.wikipedia.org/wiki/Mexican_muralism",
+      },
+      {
+        phrase: "Nelson Rockerfeller",
+        url: "https://en.wikipedia.org/wiki/Nelson_Rockefeller",
+      },
+      {
+        phrase: "Diego Rivera",
+        url: "https://en.wikipedia.org/wiki/Diego_Rivera",
+      },
+      {
         phrase: "Mexican Muralist",
-        url: "https://www.moma.org/collection/terms/mexican-muralism",
+        url: "https://en.wikipedia.org/wiki/Mexican_muralism",
       },
     ],
   },
@@ -36,7 +48,7 @@ export const dataPage1 = [
             mechanical sphere. Cascades of light burst forth from the sphere,
             each containing a depiction of the cosmos or of microscopic
             organisms. This is a direct reference to the title of the work and a
-            testament to Riviera’s socialist beliefs; an everyday laborer is
+            testament to Rivera’s socialist beliefs; an everyday laborer is
             depicted as being the controller of the universe and driver of
             history while surrounded by mankind's achievements bursting forth
             from machines. The purpose of Mexican Muralism was to build
@@ -44,20 +56,24 @@ export const dataPage1 = [
             art. The political message within this particular piece was so
             strong that it resulted in censorship; the piece had become a real
             representation of the clash between revolutionary forces and
-            reactionaries. Riviera incorporated symmetrical balance, rhythm, and
+            reactionaries. Rivera incorporated symmetrical balance, rhythm, and
             shape to draw the viewer to the center. These principles also help
             in establishing the juxtaposing halves of the painting.`,
     links: [
       {
         phrase: "fresco",
-        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Murales_Rivera_-_Markt_in_Tlatelolco_3.jpg/800px-Murales_Rivera_-_Markt_in_Tlatelolco_3.jpg",
+        url: "https://en.wikipedia.org/wiki/Fresco",
+      },
+      {
+        phrase: "Mexican Muralism",
+        url: "https://en.wikipedia.org/wiki/Mexican_muralism",
       },
     ],
   },
   {
     id: 3,
     title: "Critical Question",
-    content: `How does Riviera’s use of technology, class, and political figures challenge or reinforce your own conception of who holds power in shaping history? How does this reflection influence your own perspective on modern power structures?`,
+    content: `How does Rivera’s use of technology, class, and political figures challenge or reinforce your own conception of who holds power in shaping history? How does this reflection influence your own perspective on modern power structures?`,
     links: [{}],
   },
 ];
@@ -91,6 +107,10 @@ export const dataPage2 = [
         phrase: "neo-expressionist",
         url: "https://en.wikipedia.org/wiki/Neo-expressionism",
       },
+      {
+        phrase: "Jean-Michel Basquiat",
+        url: "https://en.wikipedia.org/wiki/Jean-Michel_Basquiat",
+      },
     ],
   },
   {
@@ -104,8 +124,12 @@ This painting is a reflection of Basquiat's own frustration with capitalist co-o
 `,
     links: [
       {
-        phrase: "asbestos",
-        url: "https://en.wikipedia.org/wiki/Mexican_muralism",
+        phrase: "Reagan era",
+        url: "https://en.wikipedia.org/wiki/Reagan_era",
+      },
+      {
+        phrase: "Art Gallery of Ontario",
+        url: "https://en.wikipedia.org/wiki/Art_Gallery_of_Ontario",
       },
     ],
   },
@@ -138,6 +162,10 @@ export const dataPage3 = [
         phrase: "Italian Renaissance",
         url: "https://en.wikipedia.org/wiki/Mexican_muralism",
       },
+      {
+        phrase: "Leonardo da Vinci",
+        url: "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+      },
     ],
   },
   {
@@ -152,6 +180,22 @@ The museum that to this day still has the painting is in the Convent of Santa Ma
       {
         phrase: "fresco",
         url: "https://en.wikipedia.org/wiki/Mexican_muralism",
+      },
+      {
+        phrase: "Ludovico Sforza",
+        url: "https://en.wikipedia.org/wiki/Ludovico_Sforza",
+      },
+      {
+        phrase: "tempera",
+        url: "https://en.wikipedia.org/wiki/Tempera",
+      },
+      {
+        phrase: "High Renaissance",
+        url: "https://en.wikipedia.org/wiki/High_Renaissance",
+      },
+      {
+        phrase: "Santa Maria delle Grazie",
+        url: "https://en.wikipedia.org/wiki/Santa_Maria_delle_Grazie,_Milan",
       },
     ],
   },
@@ -188,6 +232,10 @@ export const dataPage4 = [
         phrase: "Group of Seven",
         url: "https://en.wikipedia.org/wiki/Mexican_muralism",
       },
+      {
+        phrase: "A.Y. Jackson",
+        url: "https://en.wikipedia.org/wiki/A._Y._Jackson",
+      },
     ],
   },
   {
@@ -202,7 +250,15 @@ This painting can be found in the National Gallery of Canada art museum in Ottaw
     links: [
       {
         phrase: "Post-Impressionist",
-        url: "https://en.wikipedia.org/wiki/Mexican_muralism",
+        url: "https://en.wikipedia.org/wiki/Post-Impressionism",
+      },
+      {
+        phrase: "Oxtongue River",
+        url: "https://en.wikipedia.org/wiki/Oxtongue_River",
+      },
+      {
+        phrase: "National Gallery of Canada",
+        url: "https://en.wikipedia.org/wiki/National_Gallery_of_Canada",
       },
     ],
   },
@@ -237,7 +293,11 @@ export const dataPage5 = [
     links: [
       {
         phrase: "Neoclassical",
-        url: "https://en.wikipedia.org/wiki/Mexican_muralism",
+        url: "https://en.wikipedia.org/wiki/Neoclassicism",
+      },
+      {
+        phrase: "Jacques-Louis David",
+        url: "https://en.wikipedia.org/wiki/Jacques-Louis_David",
       },
     ],
   },
@@ -251,7 +311,19 @@ The composition emphasizes strong lines, dramatic lighting, and a sense of stoic
     links: [
       {
         phrase: "French Revolution",
-        url: "https://en.wikipedia.org/wiki/Mexican_muralism",
+        url: "https://en.wikipedia.org/wiki/French_Revolution",
+      },
+      {
+        phrase: "Neoclassical",
+        url: "https://en.wikipedia.org/wiki/Neoclassicism",
+      },
+      {
+        phrase: "Enlightenment",
+        url: "https://en.wikipedia.org/wiki/Age_of_Enlightenment",
+      },
+      {
+        phrase: "Napolean",
+        url: "https://en.wikipedia.org/wiki/Napoleon",
       },
     ],
   },
